@@ -1,0 +1,47 @@
+.hero {
+  background-image: url("/assets/img/Suits/suits-cover.jpg") !important;
+  background-position: center center;
+  overflow: "hidden";
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title {
+  font-family: "Wallington";
+  line-height: 1.25em;
+  text-align: center;
+}
+.descriptionTitle {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #dfa974;
+  font-family: serif;
+  font-style: italic;
+  text-align: center;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+.lead {
+  font-family: serif, cursive;
+  font-style: italic;
+  line-height: 1.25em;
+  text-align: center;
+  width: 750;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.suits-list {
+  margin: 70px;
+}
+.description {
+  margin: 70px;
+}

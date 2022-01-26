@@ -1,0 +1,11 @@
+  <div class="card shadow-sm item-resize">
+    <div class="content">
+      <div class="content-overlay"></div> <img class="content-image image-resize img-responsive" src="{{suit.photo}}">
+      <div class="content-details fadeIn-bottom">
+          <h2 class="content-title">Price : {{suit.price}} $</h2>
+
+  <h1><app-modal-component ></app-modal-component></h1>
+  <button  type="button" class="btn btn-sm btn-outline-secondary" *ngIf="authentificationService.isAuthentificated() && authentificationService.isAdmin()" (click)="delete(suit.id)">Delete</button>
+
+      </div>
+   </div>

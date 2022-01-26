@@ -1,0 +1,200 @@
+.room-details-section {
+  padding-top: 0;
+  padding-bottom: 80px;
+}
+.room-details-item {
+  margin-bottom: 50px;
+  margin: 55px;
+}
+.room-details-item img {
+  margin-bottom: 40px;
+}
+.room-details-item .rd-text .rd-title {
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+.room-details-item .rd-text .rd-title h3 {
+  color: #19191a;
+  float: left;
+}
+.room-details-item .rd-text .rd-title .rdt-right {
+  float: right;
+  text-align: right;
+}
+.room-details-item .rd-text .rd-title .rdt-right .rating {
+  display: inline-block;
+  margin-right: 25px;
+  margin-bottom: 10px;
+}
+.room-details-item .rd-text .rd-title .rdt-right .rating i {
+  color: #f5b917;
+}
+.room-details-item .rd-text .rd-title .rdt-right a {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: #dfa974;
+  padding: 14px 28px 13px;
+}
+.room-details-item .rd-text h2 {
+  color: #dfa974;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.room-details-item .rd-text h2 span {
+  font-family: "Cabin", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #19191a;
+}
+.room-details-item .rd-text table {
+  margin-bottom: 32px;
+}
+.room-details-item .rd-text table tbody tr td {
+  font-size: 16px;
+  color: #19191a;
+  line-height: 36px;
+}
+.room-details-item .rd-text table tbody tr td.r-o {
+  width: 120px;
+  color: #707079;
+}
+.room-details-item .rd-text p {
+  color: #707079;
+}
+.room-details-item .rd-text p.f-para {
+  margin-bottom: 22px;
+}
+
+/*SERVICEEEES*/
+
+.services-section {
+  padding-bottom: 60px;
+  border-top: 1px solid #e5e5e5;
+}
+.services-section .section-title {
+  margin-top: 60px;
+  margin-bottom: 36px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #dfa974;
+  font-family: serif;
+  font-style: italic;
+  text-align: center;
+}
+.service-item {
+  text-align: center;
+  padding: 30px 35px 18px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #042a38;
+  font-family: "Lovelyn";
+}
+.service-item:hover {
+  background: #dfa974;
+}
+.service-item:hover i {
+  color: #ffffff;
+}
+.service-item:hover h4 {
+  color: #ffffff;
+}
+.service-item:hover p {
+  color: #ffffff;
+}
+.service-item i {
+  display: inline-block;
+  color: #dfa974;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.service-item h4 {
+  color: #19191a;
+  font-size: 22px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.service-item p {
+  color: #707079;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.guests {
+  padding-top: 55px;
+  margin: 60px;
+  font-family: "Wallington";
+  font-weight: 600;
+  font-size: 25px;
+  color: #dfa974;
+}
+
+.our {
+  margin-bottom: 100px;
+}
+
+.star {
+  font-size: 1.5rem;
+  color: #b0c4de;
+}
+.bad {
+  color: #deb0b0;
+}
+.filled.bad {
+  color: #f8bf44;
+}
+
+.center {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 2px;
+  background: #dfa974;
+  border: none;
+  padding: 14px 34px 13px;
+  display: inline-block;
+}
+
+.namestyle {
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.2em;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+}
+.sz {
+  font-size: 30px;
+  font-weight: 200;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+}
+.sz2 {
+  font-size: 17px;
+  font-weight: 200;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sz3 {
+  font-size: 50px;
+  font-weight: 200;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  font-family: "Times New Roman", Times, serif;
+}

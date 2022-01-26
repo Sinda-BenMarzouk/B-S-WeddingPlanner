@@ -1,0 +1,41 @@
+
+
+
+
+
+<div class="modal-body">
+
+  <button type="button" class="close" aria-label="Close" (click)="close()">
+    <span aria-hidden="true">&times;</span>
+  </button>
+  <form action="#" class="ra-form">
+    <div class="row">
+
+
+
+        <div class="col-lg-6">
+          <label for="date-out">Phone </label>
+          <input type="tel" placeholder="enter your phone number">
+      </div>
+      <div class="col-lg-6">
+        <div class="check-date">
+          <label for="date-out">Choose a date </label>
+          <input type="date" class="date-input hasDatepicker" id="date-out">
+          <i class="icon_calendar"></i>
+      </div>
+    </div>
+
+
+    </div>
+    <div class="modal-footer">
+      <div class="row">
+      <div class="col">
+
+        <button type="submit" (click)="toast()">Submit Now</button>
+    </div>
+      <button type="button" class="btn btn-outline-dark" (click)="close()">Close</button>
+  </div>
+    </div>
+</form>
+</div>
+

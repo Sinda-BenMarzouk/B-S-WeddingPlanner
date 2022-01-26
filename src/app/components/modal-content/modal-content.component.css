@@ -1,0 +1,62 @@
+.review-add h4 {
+  color: #19191a;
+  letter-spacing: 1px;
+  margin-bottom: 45px;
+}
+.ra-form input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #e5e5e5;
+  font-size: 16px;
+  color: #aaaab3;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+.ra-form input::placeholder {
+  color: #aaaab3;
+}
+.ra-form h5 {
+  font-size: 20px;
+  color: #19191a;
+  margin-bottom: 24px;
+  float: left;
+  margin-right: 10px;
+}
+
+.ra-form textarea {
+  width: 100%;
+  height: 132px;
+  border: 1px solid #e5e5e5;
+  font-size: 16px;
+  color: #aaaab3;
+  padding-left: 20px;
+  padding-top: 12px;
+  margin-bottom: 24px;
+  resize: none;
+}
+
+.ra-form textarea::-moz-placeholder {
+  color: #aaaab3;
+}
+.ra-form textarea:-ms-input-placeholder {
+  color: #aaaab3;
+}
+.ra-form textarea::placeholder {
+  color: #aaaab3;
+}
+.ra-form button {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 2px;
+  background: #dfa974;
+  border: none;
+  padding: 14px 34px 13px;
+  display: inline-block;
+}
+
+.review-add {
+  margin: 100px;
+}

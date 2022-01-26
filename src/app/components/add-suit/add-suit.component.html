@@ -1,0 +1,30 @@
+<div class="container">
+
+  <div class="login-sec">
+      <h2 class="text-center">Add a Suit</h2>
+      <form class="login-form" #addSuitForm="ngForm">
+
+<div class="form-group" >
+  <label  class="text-uppercase">Price</label>
+  <input    type="number" class="form-control" placeholder="" #priceInput="ngModel"  required ngModel name="price" id="price">
+
+</div>
+
+<div class="form-group">
+  <label for="exampleInputPassword1" class="text-uppercase" >Path</label>
+  <input
+   #photoInput="ngModel"  required ngModel name="photo" id="photo"
+    type="text"
+    class="form-control"
+    placeholder="">
+</div>
+
+<button [disabled]="addSuitForm.invalid"  class="btn btn-login float-right" (click)="addSuit(addSuitForm)" >Add</button>
+
+
+</form>
+
+  </div>
+
+
+</div>

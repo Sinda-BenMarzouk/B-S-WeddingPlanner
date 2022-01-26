@@ -1,0 +1,47 @@
+<section class="login-block">
+  <div class="container">
+
+  <div class=" login-sec">
+      <h2 class="text-center">Create an account</h2>
+      <form class="login-form" #signUpFormulaire="ngForm">
+
+<div class="form-group" >
+  <label for="exampleInputEmail1" class="text-uppercase"> Email</label>
+  <input  #emailInput="ngModel" email required ngModel name="email" id="email" type="text" class="form-control" placeholder="">
+
+</div>
+<div class="alert alert-danger" *ngIf="emailInput.invalid && emailInput.touched">
+ Your email is invalid
+
+  </div>
+<div class="form-group">
+  <label for="exampleInputPassword1" class="text-uppercase">Password</label>
+  <input
+    required
+    #pwdInput="ngModel"
+    minlength="4"
+    ngModel name="password"
+    id="pwd"
+    type="password"
+    class="form-control"
+    placeholder="">
+</div>
+<div class="alert alert-danger" *ngIf="pwdInput.invalid && pwdInput.touched">
+  Password must have min 4 characters
+</div>
+
+  <div class="form-check">
+
+  <button [disabled]="signUpFormulaire.invalid" type="submit" class="btn btn-login float-right"  (click)="signUp(signUpFormulaire)">Create an account</button>
+</div>
+
+</form>
+
+  </div>
+
+
+</div>
+</section>
+
+
+
