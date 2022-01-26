@@ -31,6 +31,7 @@ import { AddDressComponent } from './components/add-dress/add-dress.component';
 import { SearchdatearrPipe } from './pipes/searchdatearr.pipe';
 import { SearchfilterPipe } from './pipes/searchfilter.pipe';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { PacksComponent } from './components/packs/packs.component';
 
 
 
@@ -61,7 +62,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     SearchfilterPipe,
     SearchdatearrPipe,
     AddDressComponent,
-    AddSuitComponent
+    AddSuitComponent,
+    PacksComponent
   ],
   imports: [
     BrowserModule,

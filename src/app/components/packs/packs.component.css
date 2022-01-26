@@ -1,0 +1,61 @@
+.hero {
+    background-image: url("/assets/img/Collections/collection-cover.jpg") !important;
+    background-size: cover;
+    background-position: 75% 100%;
+  }
+  .hero title {
+    text-align: center center center center;
+  }
+  .row gx-5 {
+    margin: 600px;
+  }
+  .primary-btn:after {
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background: #dfa974;
+    box-sizing: border-box;
+    content: "";
+  }
+  
+  .primary-btn {
+    display: inline-block;
+    font-size: 13px;
+    color: #042A38;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    position: relative;
+    font-family: "Lovelyn";
+  }
+  .collectionSum {
+    height: 20%;
+  }
+  .collectionSum img {
+    height: 50%;
+    width: 80%;
+    border-radius: 45%;
+  }
+  .container px-5 {
+    height: 10%;
+  }
+  .container-item {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .collectionSum h2 {
+    padding-top: 50 px;
+    font-size: 45px;
+  }
+  .collectionSum a {
+    text-align: center center;
+    padding-top: 50 px;
+  }
+  
+  h2{
+    font-family: "Wallington";
+    color: #dfa974;
+  }
+  

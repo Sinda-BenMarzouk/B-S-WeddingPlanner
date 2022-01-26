@@ -15,6 +15,7 @@ import { DressesComponent } from './components/dresses/dresses.component';
 import { HotelDetailsComponent } from './components/hotel-details/hotel-details.component';
 import { SuitsComponent } from './components/suits/suits.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { PacksComponent } from './components/packs/packs.component';
 
 const routes: Routes = [
 
@@ -67,6 +68,10 @@ const routes: Routes = [
 {
   path: 'home',
   component : HomeComponent
+},
+{
+  path: 'packs',
+  component : PacksComponent
 },
 {
   path: 'contact',
