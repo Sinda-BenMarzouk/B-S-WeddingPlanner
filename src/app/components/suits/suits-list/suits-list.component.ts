@@ -48,10 +48,7 @@ export class SuitsListComponent implements OnInit {
       price: '300$',
       src: 'assets/img/Suits//11.jfif',
     },
-    {
-      price: '300$',
-      src: 'assets/img/Suits//1.jpg',
-    },
+   
 
   ];
   constructor() { }
