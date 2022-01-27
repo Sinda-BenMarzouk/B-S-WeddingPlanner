@@ -1,0 +1,70 @@
+<div class="card shadow-sm">
+    <ngb-carousel>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img src="{{hotel.src1}}" alt="Random first slide">
+          </div>
+        
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img src="{{hotel.src2}}" alt="Random second slide">
+          </div>
+          
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img src="{{hotel.src3}}" alt="Random third slide">
+          </div>
+        
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img src="{{hotel.src4}}" alt="Random third slide">
+          </div>
+        
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img src="{{hotel.src5}}" alt="Random third slide">
+          </div>
+        
+        </ng-template>
+    
+        
+      </ngb-carousel>
+      
+      
+    
+      
+      
+      <!--elli taht etaswira-->
+       <div class="card-body">
+            <div><p class="card-text">
+                <strong>
+                    {{hotel.name}}
+                </strong>
+            </p>
+             </div>
+             <br>
+             <div>
+            <p class="text-muted sz">{{hotel.price}}$/<small>Pernight</small></p>
+            </div>
+            <br>
+           
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button class="btn-search" type="button" routerLink="/venuesDetails">View </button>
+                <!--<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>-->
+               
+              </div>
+             
+              <ngb-rating rate={{hotel.stars}}>
+                <ng-template let-fill="fill" let-index="index">
+                  <span class="star" [class.filled]="fill === 100" [class.bad]="index <= 5">&#9733;</span>
+                </ng-template>
+              </ngb-rating>
+            </div>
+    
+          </div>
+          </div>

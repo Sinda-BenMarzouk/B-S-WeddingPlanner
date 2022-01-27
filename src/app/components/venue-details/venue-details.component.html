@@ -1,0 +1,142 @@
+<div class="row">
+    <div class="col-sm-8">
+<div class="room-details-item">
+    <div>
+       <!--<img src="/assets/img/bedrooms/pexels-max-vakhtbovych-6284232.jpg" alt=""> -->
+
+       <ngb-carousel *ngIf= "images" [showNavigationArrows]="showNavigationArrows" [showNavigationIndicators]="showNavigationIndicators">
+        <ng-template ngbSlide *ngFor="let image of images">
+          <div class="picsum-img-wrapper">
+            <img [src]="image" alt="Random slide">
+          </div>
+          <div class="carousel-caption">
+            <h3>No mouse navigation</h3>
+            <p>This carousel hides navigation arrows and indicators.</p>
+          </div>
+        </ng-template>
+      </ngb-carousel>
+      
+      <hr>
+      
+      
+    </div>
+
+
+    <!--TAHT E TASWIRA-->
+    <div class="rd-text">
+        <div class="rd-title">
+            <h3>Premium King Room</h3>
+            <div class="rdt-right">
+                <!--hot stars-->
+                <a href="#">Booking Now</a>
+            </div>
+        </div>
+        <h2>159$<span>/Pernight</span></h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td class="r-o">Size:</td>
+                    <td>30 ft</td>
+                </tr>
+                <tr>
+                    <td class="r-o">Capacity:</td>
+                    <td>Max persion 5</td>
+                </tr>
+                <tr>
+                    <td class="r-o">Bed:</td>
+                    <td>King Beds</td>
+                </tr>
+                <tr>
+                    <td class="r-o">Services:</td>
+                    <td>Wifi, Television, Bathroom,...</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="f-para">Motorhome or Trailer that is the question for you. Here are some of the
+            advantages and disadvantages of both, so you will be confident when purchasing an RV.
+            When comparing Rvs, a motorhome or a travel trailer, should you buy a motorhome or fifth
+            wheeler? The advantages and disadvantages of both are studied so that you can make your
+            choice wisely when purchasing an RV. Possessing a motorhome or fifth wheel is an
+            achievement of a lifetime. It can be similar to sojourning with your residence as you
+            search the various sites of our great land, America.</p>
+        <p>The two commonly known recreational vehicle classes are the motorized and towable.
+            Towable rvs are the travel trailers and the fifth wheel. The rv travel trailer or fifth
+            wheel has the attraction of getting towed by a pickup or a car, thus giving the
+            adaptability of possessing transportation for you when you are parked at your campsite.
+        </p>
+    </div>
+
+    
+</div>
+</div>
+
+<div class="col-sm-4">
+    <section class="services-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        
+                        <h2>Discover Our Services</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                    <div class="service-item">
+                        <i class="fas fa-wifi"></i>
+
+
+                        <h4>Travel Plan</h4>
+                        <p>wifi</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-033-dinner"></i>
+                        <h4>Catering Service</h4>
+                        <p>wifi</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-026-bed"></i>
+                        <h4>Babysitting</h4>
+                        <p>babies</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-024-towel"></i>
+                        <h4>Laundry</h4>
+                        <p>clothes</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-044-clock-1"></i>
+                        <h4>Hire Driver</h4>
+                        <p>drivers</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-012-cocktail"></i>
+                        <h4>Bar &amp; Drink</h4>
+                        <p>driiiinks</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+       
+</div>
+
+</div>
+
+<div>
+
+    <span class="guests">  OUR GUESTS LOVE US </span>
+<app-reviews></app-reviews>
+</div>
+

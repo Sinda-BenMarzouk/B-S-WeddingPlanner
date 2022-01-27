@@ -12,7 +12,6 @@ import { DressesListComponent } from './components/dresses/dresses-list/dresses-
 import { HoneyMoonComponent } from './components/honey-moon/honey-moon.component';
 import { ItemComponent } from './components/honey-moon/item/item.component';
 import { HotelsListComponent } from './components/honey-moon/hotels-list/hotels-list.component';
-import { HotelDetailsComponent } from './components/hotel-details/hotel-details.component';
 import { ReviewsComponent } from './components/reviews/reviews.component';
 import { SuitsComponent } from './components/suits/suits.component';
 import { SuitItemComponent } from './components/suits/suit-item/suit-item.component';
@@ -32,6 +31,9 @@ import { SearchdatearrPipe } from './pipes/searchdatearr.pipe';
 import { SearchfilterPipe } from './pipes/searchfilter.pipe';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PacksComponent } from './components/packs/packs.component';
+import { VenuesComponent } from './components/venues/venues.component';
+import { VenuesListComponent } from './components/venues/venues-list/venues-list.component';
+import { VenueDetailsComponent } from './components/venue-details/venue-details.component';
 
 
 
@@ -48,7 +50,6 @@ import { PacksComponent } from './components/packs/packs.component';
     HoneyMoonComponent,
     ItemComponent,
     HotelsListComponent,
-    HotelDetailsComponent,
     ReviewsComponent,
     SuitsComponent,
     SuitItemComponent,
@@ -63,7 +64,10 @@ import { PacksComponent } from './components/packs/packs.component';
     SearchdatearrPipe,
     AddDressComponent,
     AddSuitComponent,
-    PacksComponent
+    PacksComponent,
+    VenuesComponent,
+    VenuesListComponent,
+    VenueDetailsComponent
   ],
   imports: [
     BrowserModule,

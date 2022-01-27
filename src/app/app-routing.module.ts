@@ -12,10 +12,12 @@ import { AddSuitComponent } from './components/add-suit/add-suit.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { CollectionsComponent } from './components/collections/collections.component';
 import { DressesComponent } from './components/dresses/dresses.component';
-import { HotelDetailsComponent } from './components/hotel-details/hotel-details.component';
+import { VenueDetailsComponent } from './components/venue-details/venue-details.component';
 import { SuitsComponent } from './components/suits/suits.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { PacksComponent } from './components/packs/packs.component';
+import { VenuesComponent } from './components/venues/venues.component';
+import { VenuesListComponent } from './components/venues/venues-list/venues-list.component';
 
 const routes: Routes = [
 
@@ -23,10 +25,7 @@ const routes: Routes = [
     path: '',
     component : HomeComponent
   },
-  {
-    path: 'honey-moon',
-    component : HoneyMoonComponent
-  },
+  
   {
     path: 'login',
     component : LoginComponent,
@@ -57,10 +56,7 @@ const routes: Routes = [
   path: 'dresses',
   component : DressesComponent
 },
-{
-  path: 'honey-moon/:id',
-  component : HotelDetailsComponent
-},
+
 {
   path: 'suits',
   component : SuitsComponent
@@ -72,6 +68,18 @@ const routes: Routes = [
 {
   path: 'packs',
   component : PacksComponent
+},
+{
+  path: 'venues',
+  component : HoneyMoonComponent
+},
+{
+  path: 'venuesList',
+  component : VenuesListComponent
+},
+{
+  path: 'venueDetails',
+  component : VenueDetailsComponent
 },
 {
   path: 'contact',

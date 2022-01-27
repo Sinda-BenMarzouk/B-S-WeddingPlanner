@@ -12,7 +12,7 @@ export class DressesListComponent implements OnInit {
 
     {
       price: '300$',
-      src: 'assets/img/Dresses/dress.jpeg',
+      src: 'assets/img/Dresses/7.jpg',
     },
     {
       price: '300$',

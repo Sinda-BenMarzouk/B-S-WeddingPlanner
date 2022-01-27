@@ -7,7 +7,8 @@
 }
 
 .title {
-  font-family: "Wallington";
+  font-family: serif, cursive;
+  font-style: italic;
   line-height: 1.25em;
   text-align: center;
 }

@@ -1,9 +1,3 @@
-.item{
-    margin: 15px;
-}
-
-
-
 body {
     margin: 0;
   }
@@ -489,7 +483,7 @@ body {
   }
   
   .choices[data-type*="select-one"] .choices__button {
-    background-image: url("src/assets/img/venues/background.jpg");
+    background-image: url("src/assets/img/Background/b1.jpg");
     padding: 0;
     background-size: 8px;
     height: 100%;
@@ -559,7 +553,7 @@ body {
     margin-left: 8px;
     padding-left: 16px;
     border-left: 1px solid #008fa1;
-    background-image: url("src/assets/img/venues/background.jpg");
+    background-image: url("src/assets/img/Background/b1.jpg");
     background-size: 8px;
     width: 8px;
     line-height: 1;
@@ -1588,7 +1582,7 @@ body {
   }
   
   .s002 {
-    min-height: 90vh;
+    min-height: 100vh;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
@@ -1596,27 +1590,27 @@ body {
     -ms-flex-align: center;
     align-items: center;
     font-family: "Poppins", sans-serif;
-    background: url("src/assets/img/venues/background.jpg");
+    background: url("src/assets/img/Background/b1.jpg");
     background-size: cover;
     background-position: center center;
     padding: 15px;
   }
   
-  .s002 .form {
+  .s002 form {
     width: 100%;
     max-width: 1190px;
   }
   
-  .s002 .form legend {
-    font-size: 50px;
+  .s002 form legend {
+    font-size: 60px;
     line-height: 1;
     color: #fff;
     margin-bottom: 60px;
-    font-weight: bold;
+    font-weight: 400;
     text-align: center;
   }
   
-  .s002 .form .inner-form {
+  .s002 form .inner-form {
     background: rgba(0, 0, 0, 0.5);
     padding: 16px;
     display: -ms-flexbox;
@@ -1628,12 +1622,12 @@ body {
     align-items: center;
   }
   
-  .s002 .form .inner-form .input-field {
-   position: relative;
+  .s002 form .inner-form .input-field {
+    position: relative;
     border-right: 1px solid #ddd;
   }
   
-  .s002 .form .inner-form .input-field .icon-wrap {
+  .s002 form .inner-form .input-field .icon-wrap {
     position: absolute;
     top: 0;
     left: 0;
@@ -1648,13 +1642,13 @@ body {
     z-index: 1;
   }
   
-  .s002 .form .inner-form .input-field .icon-wrap svg {
+  .s002 form .inner-form .input-field .icon-wrap svg {
     fill: #555;
     width: 14px;
     height: 14px;
   }
   
-  .s002 .form .inner-form .input-field input {
+  .s002 form .inner-form .input-field input {
     height: 70px;
     background: #fff;
     border-radius: 0;
@@ -1668,55 +1662,55 @@ body {
     font-family: "Poppins", sans-serif;
   }
   
-  .s002 .form .inner-form .input-field input.placeholder {
+  .s002 form .inner-form .input-field input.placeholder {
     color: #9a9a9a;
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
   }
   
-  .s002 .form .inner-form .input-field input:-moz-placeholder {
+  .s002 form .inner-form .input-field input:-moz-placeholder {
     color: #9a9a9a;
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
   }
   
-  .s002 .form .inner-form .input-field input::-webkit-input-placeholder {
+  .s002 form .inner-form .input-field input::-webkit-input-placeholder {
     color: #9a9a9a;
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
   }
   
-  .s002 .form .inner-form .input-field input:hover,
-  .s002 .form .inner-form .input-field input:focus {
+  .s002 form .inner-form .input-field input:hover,
+  .s002 form .inner-form .input-field input:focus {
     box-shadow: none;
     outline: 0;
   }
   
-  .s002 .form .inner-form .input-field.first-wrap {
+  .s002 form .inner-form .input-field.first-wrap {
     -ms-flex-positive: 1;
     flex-grow: 1;
   }
   
-  .s002 .form .inner-form .input-field.second-wrap {
+  .s002 form .inner-form .input-field.second-wrap {
     min-width: 190px;
     max-width: 190px;
   }
   
-  .s002 .form .inner-form .input-field.third-wrap {
+  .s002 form .inner-form .input-field.third-wrap {
     min-width: 190px;
     max-width: 190px;
   }
   
-  .s002 .form .inner-form .input-field.fouth-wrap {
+  .s002 form .inner-form .input-field.fouth-wrap {
     min-width: 190px;
     max-width: 190px;
     border-right: 0;
   }
   
-  .s002 .form .inner-form .input-field.fouth-wrap .choices__inner {
+  .s002 form .inner-form .input-field.fouth-wrap .choices__inner {
     background: #fff;
     border-radius: 0;
     border: 0;
@@ -1827,14 +1821,14 @@ body {
     font-size: 16px;
   }
   
-  .s002 .form .inner-form .input-field.fifth-wrap {
+  .s002 form .inner-form .input-field.fifth-wrap {
     min-width: 190px;
     max-width: 190px;
     padding-left: 10px;
     border-right: 0;
   }
   
-  .s002 .form .inner-form .input-field.fifth-wrap .btn-search {
+  .s002 form .inner-form .input-field.fifth-wrap .btn-search {
     height: 70px;
     width: 100%;
     background: #b78a62;
@@ -1849,42 +1843,42 @@ body {
     font-family: "Poppins", sans-serif;
   }
   
-  .s002 .form .inner-form .input-field.fifth-wrap .btn-search:hover {
+  .s002 form .inner-form .input-field.fifth-wrap .btn-search:hover {
     background: #af7d51;
   }
   
   @media screen and (max-width: 992px) {
-    .s002 .form legend {
+    .s002 form legend {
       font-size: 50px;
       text-align: center;
       margin-bottom: 50px;
     }
-    .s002 .form .inner-form {
+    .s002 form .inner-form {
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;
       -ms-flex-pack: justify;
       justify-content: space-between;
     }
-    .s002 .form .inner-form .input-field {
+    .s002 form .inner-form .input-field {
       margin-bottom: 15px;
     }
-    .s002 .form .inner-form .input-field.first-wrap {
+    .s002 form .inner-form .input-field.first-wrap {
       width: 100%;
     }
-    .s002 .form .inner-form .input-field.second-wrap {
+    .s002 form .inner-form .input-field.second-wrap {
       width: calc(50% - 7.5px);
       max-width: none;
     }
-    .s002 .form .inner-form .input-field.third-wrap {
+    .s002 form .inner-form .input-field.third-wrap {
       width: calc(50% - 7.5px);
       max-width: none;
     }
-    .s002 .form .inner-form .input-field.fouth-wrap {
+    .s002 form .inner-form .input-field.fouth-wrap {
       width: calc(50% - 7.5px);
       max-width: none;
       margin-bottom: 0;
     }
-    .s002 .form .inner-form .input-field.fifth-wrap {
+    .s002 form .inner-form .input-field.fifth-wrap {
       width: calc(50% - 7.5px);
       max-width: none;
       padding-left: 0;
@@ -1893,26 +1887,35 @@ body {
   }
   
   @media screen and (max-width: 767px) {
-    .s002 .form legend {
+    .s002 form legend {
       font-size: 40px;
       margin-bottom: 40px;
     }
-    .s002 .form .inner-form .input-field.second-wrap,
-    .s002 .form .inner-form .input-field.third-wrap,
-    .s002 .form .inner-form .input-field.fouth-wrap,
-    .s002 .form .inner-form .input-field.fifth-wrap {
+    .s002 form .inner-form .input-field.second-wrap,
+    .s002 form .inner-form .input-field.third-wrap,
+    .s002 form .inner-form .input-field.fouth-wrap,
+    .s002 form .inner-form .input-field.fifth-wrap {
       width: 100%;
       margin-bottom: 15px;
     }
-    .s002 .form .inner-form .input-field.fifth-wrap {
+    .s002 form .inner-form .input-field.fifth-wrap {
       margin-bottom: 0;
     }
   }
+  
   .hotels-list {
     margin: 70px;
   }
-
-
-  .legendstyle{
-    margin-top: 100px;
+  
+  .content-details h2 {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+    font-family: "Times New Roman", Times, serif;
   }
+  .content-details h2 {
+    font-size: 20px;
+  }
+  
