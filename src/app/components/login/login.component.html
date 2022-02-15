@@ -1,4 +1,4 @@
-
+<app-header></app-header>
 <section class="login-block">
   <div class="container">
 <div class="row">
@@ -34,7 +34,7 @@ Password must have min 4 characters
 </div>
   <div class="form-check">
 
-  <button [disabled]="loginFormulaire.invalid" type="submit" class="btn btn-login float-right"  (click)="login(loginFormulaire)" >Submit</button>
+  <button [disabled]="loginFormulaire.invalid" type="submit" class="btn btn-login float-right"  routerLink="/homee" >Submit</button>
 </div>
 
 </form>

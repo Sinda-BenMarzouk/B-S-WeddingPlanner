@@ -11,54 +11,54 @@ export class DressesListComponent implements OnInit {
   dresses = [
 
     {
-      price: '300$',
+      price: '300dt',
       src: 'assets/img/Dresses/7.jpg',
     },
     {
-      price: '300$',
+      price: '500dt',
       src: 'assets/img/Dresses/8.jpg',
     },
     {
-      price: '300$',
+      price: '1000dt',
       src: 'assets/img/Dresses/9.jpg',
     },
     {
-      price: '300$',
+      price: '800dt',
       src: 'assets/img/Dresses/10.jpg',
     },
 
     {
-      price: '300$',
+      price: '500dt',
       src: 'assets/img/Dresses/2.jpg',
     },
     {
-      price: '300$',
+      price: '300dt',
       src: 'assets/img/Dresses/3.jpg',
     },
     {
-      price: '300$',
+      price: '1000dt',
       src: 'assets/img/Dresses/1.jfif',
     },
     {
-      price: '300$',
+      price: '300dt',
       src: 'assets/img/Dresses/5.jfif',
     },
     {
       name: 'Dress 10',
-      price: '300$',
+      price: '500dt',
       src: 'assets/img/Dresses/4.jpg',
     },
 
     {
-      price: '300$',
+      price: '650dt',
       src: 'assets/img/Dresses/6.jpg',
     },
     {
-      price: '300$',
+      price: '1000dt',
       src: 'assets/img/Dresses/11.jpg',
     },
     {
-      price: '300$',
+      price: '750dt',
       src: 'assets/img/Dresses/2.jfif',
     },
   ];

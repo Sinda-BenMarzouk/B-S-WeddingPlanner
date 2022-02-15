@@ -11,41 +11,41 @@ export class SuitsListComponent implements OnInit {
   suits = [
 
     {
-      price: '300$',
+      price: '1000dt',
       src: 'assets/img/Suits/10.jfif',
     },
     {
-      price: '300$',
+      price: '1500dt',
       src: 'assets/img/Suits/12.jfif',
     },
 
     {
-      price: '300$',
+      price: '850dt',
       src: 'assets/img/Suits/4.png',
     },
     {
-      price: '300$',
+      price: '900dt',
       src: 'assets/img/Suits/5.jfif',
     },
 
     {
-      price: '300$',
+      price: '700dt',
       src: 'assets/img/Suits/7.jfif',
     },
     {
-      price: '300$',
+      price: '1400dt',
       src: 'assets/img/Suits/8.jfif',
     },
     {
-      price: '300$',
+      price: '1300dt',
       src: 'assets/img/Suits/9.jfif',
     },
     {
-      price: '300$',
+      price: '950dt',
       src: 'assets/img/Suits/8.jpg',
     },
     {
-      price: '300$',
+      price: '1200dt',
       src: 'assets/img/Suits//11.jfif',
     },
    

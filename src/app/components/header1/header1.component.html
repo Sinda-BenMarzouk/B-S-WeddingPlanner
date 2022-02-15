@@ -1,0 +1,82 @@
+
+  <nav class="navbar is-transparent" [style.background-color]="color.colorPrimary" >
+    <div class="navbar-brand">
+      <div class="navbar-item" [style.color]="color.colorLight" style="font-weight:250; text-shadow: 5px; font-family: Wallington; font-size:20px">
+        B&S WeddingPlanner
+      </div>
+      <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item"  routerLink="/home" [style.color]="color.colorLightSecondary">
+          Home
+        </a>
+        <a class="navbar-item"  routerLink="/packs" [style.color]="color.colorLightSecondary">
+          Wedding Organization
+        </a>
+        <a class="navbar-item"  routerLink="/venues" [style.color]="color.colorLightSecondary">
+          Wedding Venues
+        </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" routerLink="/collections" [style.color]="color.colorLightSecondary" >
+            Collections
+          </a>
+          <div class="navbar-dropdown is-boxed " [style.background-color]="color.colorPrimary">
+            <a class="navbar-item" routerLink="/dresses" [style.background-color]="color.colorPrimary" [style.color]="color.colorLightSecondary">
+              Dresses
+            </a>
+            <a class="navbar-item" routerLink="/suits" [style.background-color]="color.colorPrimary" [style.color]="color.colorLightSecondary">
+              Suits
+            </a>
+          </div>
+        </div>
+
+        <a class="navbar-item"  routerLink="/contact" [style.color]="color.colorLightSecondary">
+          Contact
+        </a>
+        <a      *ngIf="authentificationService.isAuthentificated() && authentificationService.isAdmin()" class="navbar-item"  routerLink="/add-dress" [style.color]="color.colorLightSecondary">
+          add Dress
+        </a>
+        <a      *ngIf="authentificationService.isAuthentificated() && authentificationService.isAdmin()" class="navbar-item"  routerLink="/add-suit" [style.color]="color.colorLightSecondary">
+          add Suit
+        </a>
+
+
+          <a  *ngIf="!authentificationService.isAuthentificated()"  routerLink="/" class="navbar-item" [style.color]="color.colorLightSecondary">
+          LogOut
+          </a>
+          <a
+          *ngIf="authentificationService.isAuthentificated()"
+          class="navbar-item"
+          (click)="logOut()"
+          [style.color]="color.colorLightSecondary"
+          >
+            LogOut
+            </a>
+
+            <div class="navbar-brand">
+              <div class="navbar-item" [style.color]="color.colorLight" style="font-weight:250; text-shadow: 5px; font-size:20px">
+                Welcome Sinda Ben Marzouk !
+              </div>
+              <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+           
+      </div>
+
+
+  </div>
+
+</nav>
+
+
+
+

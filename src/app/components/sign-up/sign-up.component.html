@@ -1,3 +1,4 @@
+<app-header></app-header>
 <section class="login-block">
   <div class="container">
 
@@ -13,6 +14,11 @@
 <div class="alert alert-danger" *ngIf="emailInput.invalid && emailInput.touched">
  Your email is invalid
 
+  </div>
+  <div class="form-group" >
+    <label for="exampleInputEmail1" class="text-uppercase"> Name</label>
+    <input  id="name" type="text" class="form-control" placeholder="">
+  
   </div>
 <div class="form-group">
   <label for="exampleInputPassword1" class="text-uppercase">Password</label>
@@ -32,7 +38,7 @@
 
   <div class="form-check">
 
-  <button [disabled]="signUpFormulaire.invalid" type="submit" class="btn btn-login float-right"  (click)="signUp(signUpFormulaire)">Create an account</button>
+  <button [disabled]="signUpFormulaire.invalid" type="submit" class="btn btn-login float-right"  routerLink="/account">Create an account</button>
 </div>
 
 </form>
@@ -42,6 +48,3 @@
 
 </div>
 </section>
-
-
-

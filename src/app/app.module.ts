@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -24,7 +25,6 @@ import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ToastrModule } from 'ngx-toastr';
 import { HttpClientModule } from '@angular/common/http';
-import { FormsModule } from '@angular/forms';
 import { AddSuitComponent } from './components/add-suit/add-suit.component';
 import { AddDressComponent } from './components/add-dress/add-dress.component';
 import { SearchdatearrPipe } from './pipes/searchdatearr.pipe';
@@ -34,6 +34,12 @@ import { PacksComponent } from './components/packs/packs.component';
 import { VenuesComponent } from './components/venues/venues.component';
 import { VenuesListComponent } from './components/venues/venues-list/venues-list.component';
 import { VenueDetailsComponent } from './components/venue-details/venue-details.component';
+import { Home1Component } from './components/home1/home1.component';
+import { BronzeComponent } from './components/bronze/bronze.component';
+import { FormComponent } from './components/form/form.component';
+import { ThanksComponent } from './components/thanks/thanks.component';
+import { AccountComponent } from './components/account/account.component';
+import { Header1Component } from './components/header1/header1.component';
 
 
 
@@ -67,13 +73,20 @@ import { VenueDetailsComponent } from './components/venue-details/venue-details.
     PacksComponent,
     VenuesComponent,
     VenuesListComponent,
-    VenueDetailsComponent
+    VenueDetailsComponent,
+    Home1Component,
+    BronzeComponent,
+    FormComponent,
+    ThanksComponent,
+    AccountComponent,
+    Header1Component
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     FormsModule,
+    ReactiveFormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
     ToastrModule.forRoot({timeOut: 3500,

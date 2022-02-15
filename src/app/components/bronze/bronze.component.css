@@ -1,0 +1,57 @@
+.ap-services li {
+    list-style: none;
+    font-size: 20px;
+    color: #707079;
+    line-height: 42px;
+  }
+.ap-services li i {
+    color: #dfa974;
+    margin-right: 5px;
+  }
+.ap-service-item {
+    position: relative;
+    height: 420px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+.ap-service-item .api-text {
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero {
+    background-image: url("/assets/img/packs/background.jpg") !important;
+    background-size: cover;
+    background-position: 75% 100%;
+  }
+  .hero title {
+    text-align: center center center center;
+  }
+
+  h4{
+    text-align: center;
+  }
+  .btn {
+    background-color: #dfa974;
+    color: #fff;
+    text-align: center;
+  }
+  .btn:hover,
+  .btn:focus,
+  .btn.active {
+    background: #dfa974;
+    color: #fff;
+    -webkit-box-shadow: 0 15px 30px rgba(156, 213, 240, 0.062);
+    -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 250ms ease-in-out 0s;
+    -moz-transition: all 250ms ease-in-out 0s;
+    -ms-transition: all 250ms ease-in-out 0s;
+    -o-transition: all 250ms ease-in-out 0s;
+    transition: all 250ms ease-in-out 0s;
+  }
